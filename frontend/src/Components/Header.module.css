@@ -1,0 +1,166 @@
+:root {
+  --bg-color: #1b4d3e;
+  --text-color: #f8f3d9;
+}
+
+@media only screen and (max-width: 767px) {
+  .firstList {
+    display: none !important;
+  }
+
+  .fluid nav {
+    padding: 8px 48px;
+  }
+
+  .openSlide {
+    display: block !important;
+    position: fixed;
+    top: 68px;
+    font-weight: 700;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%);
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 10px;
+    width: 70%;
+    background-color: white;
+    align-items: center;
+    gap: 8px !important;
+    list-style: none;
+    box-shadow: 8px 25px 50px 3px rgba(0, 0, 0, 0.6);
+
+    animation: slideAnimationIn 300ms ease-in-out 1;
+  }
+
+  @keyframes slideAnimationIn {
+    to {
+      opacity: 100%;
+      top: 60px;
+    }
+    from {
+      opacity: 0%;
+      top: 0px;
+    }
+  }
+
+  .firstList {
+    padding: 12px 0px;
+  }
+
+  .firstList a {
+    color: var(--text-color);
+  }
+
+  .sideIcon {
+    display: block !important;
+    position: fixed;
+    top: 0px;
+  }
+}
+
+.fluid {
+  position: sticky;
+  top: 0px;
+  color: black;
+  background-color: white;
+  z-index: 10;
+}
+
+.firstList {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  list-style: none;
+}
+
+.firstList li {
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.firstList li:hover {
+  border-bottom: 1px solid rgba(190, 190, 190, 0.678);
+}
+
+.firstList li:nth-of-type(4),
+.firstList li:nth-of-type(5) {
+  border: none;
+}
+
+.firstList li a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.profileIcon {
+  font-size: 1.5rem;
+}
+
+.profileIcon:hover {
+  color: rgba(107, 158, 107, 0.603);
+}
+
+.sideIcon {
+  font-size: 2.5rem;
+}
+
+.firstList {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+}
+
+.sideIcon {
+  display: none;
+}
+
+.logo {
+  text-decoration: none;
+  color: #1b4d3e;
+  font-weight: 700;
+}
+
+.HeaderSection2 {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.profileContainer {
+  display: block !important;
+  position: fixed;
+  top: 68px;
+  font-weight: 700;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%);
+  display: flex !important;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 10px;
+  width: 70%;
+  background-color: white;
+  align-items: center;
+  gap: 8px !important;
+  list-style: none;
+  box-shadow: 8px 25px 50px 3px rgba(0, 0, 0, 0.6);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  background-color: red;
+}

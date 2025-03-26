@@ -1,0 +1,98 @@
+@media only screen and (max-width: 767px) {
+  .pricing {
+    font-size: 16px !important;
+  }
+
+  .rating {
+    font-size: 14px !important;
+    text-transform: capitalize;
+  }
+
+  .rating span {
+    font-size: 14px;
+  }
+
+  .category {
+    font-size: 16px !important;
+  }
+
+  .description {
+    font-size: 12px !important;
+  }
+
+  .title {
+    font-size: 16px !important;
+  }
+
+  .btnContainer button:nth-of-type(1) {
+    width: 60px !important;
+  }
+  .btnContainer button:nth-of-type(2) {
+    width: 60px !important;
+  }
+}
+
+.card {
+  width: 16rem;
+  min-height: 3rem;
+  margin: 0px 20px;
+  padding: 14px;
+  position: relative;
+}
+
+.card_img {
+  margin-bottom: 14px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 15px;
+  margin-top: 10px;
+}
+
+.btnContainer {
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+.btnContainer button:nth-of-type(1),
+.btnContainer button:nth-of-type(2),
+.btnContainer button:nth-of-type(3) {
+  width: 80px;
+}
+
+.pricing {
+  font-size: 26px;
+  margin-top: -18px;
+  text-transform: capitalize;
+}
+
+.rating {
+  font-size: 18px;
+  margin-top: -18px;
+  margin-bottom: 40px;
+}
+
+.rating span {
+  font-size: 14px;
+}
+
+.category {
+  font-size: 18px;
+  margin-top: -10px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.icon {
+  font-size: 18px;
+}
