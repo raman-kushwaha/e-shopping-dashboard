@@ -30,7 +30,7 @@ const Login = () => {
     console.log(payload);
 
     axios
-      .post("/form/login", payload)
+      .post(`/form/login`, payload)
       .then((res) => {
         navi("/");
         window.location.reload();

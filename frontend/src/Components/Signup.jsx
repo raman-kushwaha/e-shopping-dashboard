@@ -30,7 +30,7 @@ const Signup = () => {
     const confirmpassword = confirmPassword.current.value;
 
     axios
-      .post("/form/signup", {
+      .post(`/form/signup`, {
         username,
         email,
         password,

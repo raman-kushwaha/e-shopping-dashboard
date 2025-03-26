@@ -6,6 +6,8 @@ import { Outlet } from "react-router-dom";
 import Cookies from "js-cookie";
 
 const App = () => {
+  console.log(import.meta.env.VITE_BACKEND_URI);
+
   return (
     <>
       <Header />
